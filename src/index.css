@@ -3,7 +3,6 @@ body {
     margin: 0;
     font-size: 1em;
     text-align: center;
-    /* background: #af83e9; */
     background-image: linear-gradient(to right, rgb(69, 43, 76) , rgb(52, 105, 166));
     color: #fff;
 }

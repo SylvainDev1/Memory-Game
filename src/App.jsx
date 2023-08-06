@@ -72,7 +72,6 @@ function App() {
       setGameCompleted(false);
     }
   }, [choiceTwo]);
-  // console.log(`completed: ${gameCompleted}`);
 
   //reset choice and increase turns
   const resetTurn = () => {
@@ -90,10 +89,9 @@ function App() {
   return (
     <div className="App">
       <h1>Memory Game</h1>
-      <div>
-        <button onClick={shuffleCards}>Start New Game</button>
-        Turns: {turns}
-      </div>
+
+      <button onClick={shuffleCards}>Start New Game</button>
+      <h4>Turns: {turns}</h4>
 
       <h2 className={gameCompleted ? "Win" : ""}> WELL DONE !!!</h2>
 
